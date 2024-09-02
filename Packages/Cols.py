@@ -112,7 +112,7 @@ class Column_section:
 
         self.diams_y = diams_y
 
-        d_j = self.col.h - self.rec - diam_steels[self.strp] - diam_steels[d_corner]/2
+        d_j = self.col.b - self.rec - diam_steels[self.strp] - diam_steels[d_corner]/2
         ds_y.append(d_j)
         self.ds_y = ds_y
 
